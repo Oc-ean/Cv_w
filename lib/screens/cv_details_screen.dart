@@ -25,7 +25,7 @@ class CvEditScreen extends StatelessWidget {
     bioController.text = currentBio;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Cv Input'),
+        title: const Text('Cv Edit'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
